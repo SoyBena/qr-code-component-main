@@ -2,16 +2,25 @@ body {
     background-color: #D6E1F0;
     font-family: 'Outfit', sans-serif;
 
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
+    align-items: center; */
+    margin-top: 10vw;
+
 }
 
 main {
-    width: 15%;
+
+    display: flex;
+    flex-direction:column;
+    min-width: 35vh;
+    max-width: 35vh;
+    max-height: 100vh;
+
+
     background-color: white;
     margin: auto;
+    margin-top:15vh;
     padding: 17px;
     border-radius: 15px;
     padding-bottom: 30px;
