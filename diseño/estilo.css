@@ -1,3 +1,27 @@
+/*  Animations */
+@keyframes appearFromNothing {
+
+    from {
+        transform: translateY(-40px);
+
+    }
+    
+    50% {
+        transform: translateY(15px)
+    }
+
+    to {
+        transform: translateY(0);
+    }
+
+}
+
+*{
+    
+    animation: appearFromNothing 1.3s;
+
+}
+
 body {
     background-color: #D6E1F0;
     font-family: 'Outfit', sans-serif;
@@ -31,17 +55,21 @@ main {
 img {
     width: 100%;
     border-radius: 15px;
+
 }
 
 .arriba {
     font-size: 25px;
     text-align: center;
     font-weight: bold;
+
 }
+
 
 .abajo {
     font-size: 16px;
     text-align: center;
     color: rgb(172, 172, 172);
     margin: 0 2px;
+
 }
